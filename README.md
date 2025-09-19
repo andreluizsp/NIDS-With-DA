@@ -29,15 +29,26 @@ This will create a new directory called "NIDS-With-DA" containing the following 
 
 $ ls
 
-LICENSE  MakeCSV.py Packets README.md Rogue_OCCS_SVM.ipynb dataset.csv
-Import Rogue_OCCS_SVM.ipynb in Juniper or Google Colab
-  https://colab.research.google.com/drive/1rbxLpr-232kK-4MhV1nt5H3Qaaz-ekb7?usp=sharing
-Import dataset.csv to Goole Drive or change the cell below
-  df_orig = pd.read_csv('/content/drive/MyDrive/datasets/dataset.csv')
-Directory Packages vs. Script MakeCSV.py
-  1) Inside the Packages directory are the packages used in this project (357 Access Points - APs)
+  <b>00_MLP_1_Dataset1.ipynb</b>
+    Jupyter Notebook: Este notebook demonstra um modelo tradicional de Machine Learning (usando uma MLP) que aprende no dataset1 e testa no dataset1 
+  
+  <b>01_MLP_1_Dataset2.ipynb</b>
+    Jupyter Notebook: Este notebook demonstra um modelo tradicional de Machine Learning (usando uma MLP) que aprende no dataset1 e testa no dataset1 
+  
+  <b>02_MLP_1_Dataset3.ipynb</b>
+    Jupyter Notebook: Este notebook demonstra um modelo tradicional de Machine Learning (usando uma MLP) que aprende no dataset1 e testa no dataset1  
+  
+  <b>03_MLP_1_Dataset4.ipynb</b>
+    Jupyter Notebook: Este notebook demonstra um modelo tradicional de Machine Learning (usando uma MLP) que aprende no dataset1 e testa no dataset1 
 
-  2) Script MakeCSV.py must be in the same directory as the .pcaps files to extract the features 
-     of all APs with the command below:
-
-     Shell: # MakeCSV.py > dataset.csv
+  <b>04_MLP_4_E10-26Features-FineTunning-MultiClass.ipynb</b>
+    Jupyter Notebook: Este notebook demonstra um modelo tradicional de Machine Learning (usando uma MLP) que aprende no dataset1 e testa no dataset1 
+    
+  <b>09_1AE-512_MLP_4_Ambos-E10_26Features-FineTunning-MultiClass.ipynb</b>
+    Jupyter Notebook: Este notebook demonstra um modelo tradicional de Machine Learning (usando uma MLP) que aprende no dataset1 e testa no dataset1 
+    
+  <b>11_2AE_MLP_4_Ambos-512-512-E10-100_26Features-PesoDissimilaridade7-MultiClass.ipynb</b>
+    Jupyter Notebook: Este notebook demonstra um modelo tradicional de Machine Learning (usando uma MLP) que aprende no dataset1 e testa no dataset1 
+    
+  <b>15_3AE_MLP_4_Ambos-512-512-256-E10-100_26Features-Multiclass.ipynb</b>
+    Jupyter Notebook: Este notebook demonstra um modelo tradicional de Machine Learning (usando uma MLP) que aprende no dataset1 e testa no dataset1 
