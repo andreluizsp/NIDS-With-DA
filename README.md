@@ -7,7 +7,9 @@ porates both the diversity of the AutoEncoder’s latent spaces and the accuracy
 # In summary, the main objectives of this work are:
 
 • To evaluate the generalization capability of traditional ML techniques in NIDS, assessing their performance across multiple domains, where experiments demonstrate their limited ability to generalize;
+
 • Develop an ML model based on an ensemble of Deep AutoEncoders, designed to extract diverse features and improve generalization, thereby enabling deployment across heteroge neous network domains for NIDS;
+
 • To compare the results obtained from training with varying architectural configurations of the Deep Autoencoder ensem- ble, using different datasets to pursue DA.
 
 
