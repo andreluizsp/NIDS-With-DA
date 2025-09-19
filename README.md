@@ -1,7 +1,11 @@
 # Network Intrusion Detection Systems With Domain Adaptation
+
 <div align="justify">
+
    This work advances the traditional model by employing an ensemble of Deep AutoEncoders organized into two stages. In the first stage, each Deep AutoEncoder extracts a distinct set of latent features, with diversity ensured by varying architectural configurations (number of neurons and layers). This structural heterogeneity enables the system to capture multiple perspectives of the data, thereby enhancing its generalization capability. In the second stage, training incorporates both the diversity of the AutoEncoder’s latent spaces and the accuracy of the resulting model. This design allows the model to integrate complementary information learned by each AutoEncoder, thereby optimizing overall performance. Joint training is conducted in a multi-objective setting, where feature extraction and classification are tuned simultaneously. By accounting for latent diversity alongside global accuracy, the model preserves its effectiveness even under varying network conditions.
-<\div>
+   
+</div>
+
 # In summary, the main objectives of this work are:
 
 • To evaluate the generalization capability of traditional ML techniques in NIDS, assessing their performance across multiple domains, where experiments demonstrate their limited ability to generalize;
